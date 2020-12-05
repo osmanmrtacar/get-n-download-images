@@ -4,7 +4,7 @@ Get and download images, delete images with the specific size
 
 Search in directory and save to icons.txt
 ```python
-grep -Eorh "(https?:)?//(yourwebsite)\S+\.(jpg|png)" yourfolder youranotherfolder | sort -u > icons.txt
+grep -Eorh "(https?:)?//(yourwebsite.com)\S+\.(jpg|png)" yourfolder youranotherfoldertosearch | sort -u > icons.txt
 ```
 
 download
